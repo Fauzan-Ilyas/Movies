@@ -1,0 +1,95 @@
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(imageA/im.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Poppins", sans-serif;
+}
+
+.cards {
+  display: flex;
+  margin: auto;
+  margin-top: 50px;
+  width: 90%;
+  height: 85vh;
+  background-image: url(imageA/im.png);
+  background-size: cover;
+  border-radius: 5px;
+  border: 2px solid #9d9d9d;
+}
+
+header {
+  color: white;
+  margin: 30px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  cursor: pointer;
+}
+
+nav a {
+    cursor: pointer;
+  text-decoration: none;
+  color: gray;
+  margin-left: 30px;
+}
+
+nav a.active {
+    color: white;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+}
+
+.nav img {
+  border-radius: 50%;
+}
+
+.title {
+  position: absolute;
+  bottom: 300px;
+  color: white;
+  z-index: 999;
+  margin-left: 30px;
+}
+
+.title b {
+  font-size: 50px;
+  font-weight: 400;
+}
+
+.title p {
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.title button {
+  margin: 20px;
+  padding: 5px 30px;
+  border-radius: 5px;
+  background-color: aqua;
+  border: none;
+  cursor: pointer;
+}
+
+.card {
+  position: absolute;
+  display: flex;
+  cursor: pointer;
+}
+.card img {
+    width: 100px;
+    height: 140px;
+    margin-top: 370px;
+    margin-left: 40px;
+    border: 2px solid white;
+    border-radius: 3px;
+}
